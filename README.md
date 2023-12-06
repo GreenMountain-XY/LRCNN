@@ -33,17 +33,16 @@ We should first prepare the input training samples.
 
 Second, we can submit a training job using the following commands.  
 * __For VGG-16__  
-`run VGG16/2PS.py`  
-About arguments:  
-our methods:   
+`run VGG16/run_2PS.py`  
+The argument represents our method:  
 - 2PS: `VGGNet/run_2PS.py` 
 - 2PS-H: `VGG16/run_2PS_H.py` 
 - OverL: `VGG16/run_OverL.py` 
 - OverL-H: `VGG16/run_OverL_H.py` 
 
 * __For ResNet-50:__  
-`run ResNet/2PS.py`  
-About arguments:  
+`run ResNet/run_2PS.py`  
+The argument represents our method:  
 our methods:   
 - 2PS: `ResNet/run_2PS.py` 
 - 2PS-H: `ResNet/run_2PS_H.py` 
